@@ -37,7 +37,7 @@ def both_ends(s):
   return_val = ''
   if(len(s)>2):
     return_val = s[0:2] + s[-2:]
-  return return_val + 'bob'
+  return return_val
 
 
 
