@@ -22,7 +22,7 @@ def donuts(count):
     if(count >= 10):
         amount = 'many'
     return_string = 'Number of donuts: ' + str(amount)
-    return return_string + '\n'
+    return return_string
 
 
 # B. both_ends
@@ -36,7 +36,7 @@ def both_ends(s):
   return_val = ''
   if(len(s)>2):
     return_val = s[0:2] + s[-2:]
-  return return_val + '\n'
+  return return_val
 
 
 
@@ -60,7 +60,7 @@ def fix_start(s):
       return_string += '*'
     else:
       return_string += letter
-  return return_string + '\n'
+  return return_string
 
 
 
@@ -77,7 +77,7 @@ def mix_up(a, b):
   new_a = b[0:2] + a[2:]
   new_b = a[0:2] + b[2:]
   return_string = new_a + " " + new_b
-  return return_string + '\n'
+  return return_string
 
 
 
